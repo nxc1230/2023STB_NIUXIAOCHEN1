@@ -15,7 +15,7 @@ str(subway)
 #변수의 이상치와 결측치 확인하고 처리 
 summary(subway)
 
-#파생변수1.정수형day변수 
+#파생변수1.정수형day변수  
 subway$day <- substr(subway$Date,7,8) 
 class(subway$day) 
 subway$day <- as.integer(subway$day)

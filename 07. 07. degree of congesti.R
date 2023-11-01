@@ -16,7 +16,7 @@ colSums(is.na(congestion))
 #결측치 개수 확인 
 is.na(congestion) 
 sum(is.na(congestion)) 
-colSums(is.na(congestion))
+colSums(is.na(congestion)) 
 
 #결측치가 있는 행을 제거한 새로운 데이터 프레임 생성 #6시 출발기차의 결측치를 제거
 congestion1 <- congestion[!is.na(congestion$s0600),] 
