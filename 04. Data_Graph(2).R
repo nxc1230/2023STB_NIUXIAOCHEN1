@@ -11,4 +11,4 @@ plot(x=finedust$`3_fine dust`,  y=finedust$`3_ultrafine dust`,  xlab="미세먼�
 #미세먼지와 초미세먼지의 변화
 plot(x=finedust$`3_fine dust`,  y=finedust$`3_ultrafine dust`,  xlab="미세먼지", ylab="초미세먼지",  main="미세먼지와 초미세먼지의 변화", pch=24, col="red",  bg="yellow", cex=1.5)
 #미세먼지와 초미세먼지의 변화
-plot(x=finedust$`3_fine dust`,  y=finedust$`3_ultrafine dust`,  xlab="미세먼지", ylab="초미세먼지",  main="미세먼지와 초미세먼지의 변화", type = "h")
+plot(x=finedust$`3_fine dust`,  y=finedust$`3_ultrafine dust`,  xlab="미세먼지", ylab="초미세먼지",  main="미세먼지와 초미세먼지의 변화", type = "h") 

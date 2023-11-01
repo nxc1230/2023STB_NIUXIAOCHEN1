@@ -19,7 +19,7 @@ barplot(entry, legend = TRUE)
 ECN <- table(X2023_STB_survey$Gender)
 prop.table(ECN)
 
-#파이차트
+#파이차트 
 pie(table(X2023_STB_survey$Gender))
 pie(table(X2023_STB_survey$Age))
 pie(table(X2023_STB_survey$Grade))
