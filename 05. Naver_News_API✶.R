@@ -18,7 +18,7 @@ library(RmecabKo)
 #뉴스 API 설정(Client_ID와 Client_Secret은 개인별로 추가)
 searchUrl <- "https://openapi.naver.com/v1/search/blog.xml"
 Client_ID <- "Q_Znw51qw3bdk3DoAMxQ"
-Client_Secret <- "sQ43dpBHQu"
+Client_Secret <- "sQ43dpBHQu" 
 
 #뉴스 URL 작성(UTF-8로 암호화, API 요청할 URL 정의, 검색결과는 100로 요청)
 query <- URLencode(iconv("삼성", to="UTF-8"));
