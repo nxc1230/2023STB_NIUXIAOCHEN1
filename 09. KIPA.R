@@ -119,4 +119,4 @@ ggplot(data=area_satisfaction,aes(x=reorder(area,m),y=m))+
   ggtitle("지역별 만족도")+
   xlab("지역")+
   ylab("만족도")+
-  coord_flip()
+  coord_flip() 
